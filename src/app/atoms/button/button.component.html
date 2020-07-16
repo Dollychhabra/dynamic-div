@@ -1,0 +1,16 @@
+<button
+  class="btn"
+  *ngIf="type == 'button'"
+  (parentFunc)="(parentFunc)"
+  (click)="onClick()"
+  [ngClass]="[
+    sizeClassName,
+    textColorClassName,
+    backgroundColorClassName,
+    textSizeClassName,
+    classname ? classname : ''
+  ]"
+>
+  <span *ngIf="buttonText">{{ buttonText }}</span>
+  <i [class]="iconClassName" *ngIf="iconClassName"></i>
+</button>
