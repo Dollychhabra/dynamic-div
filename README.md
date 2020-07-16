@@ -1,6 +1,10 @@
-# DynamicDivApp
+# MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
+
+git clone https://github.com/Dollychhabra/dynamic-div.git
+
+npm install
 
 ## Development server
 
